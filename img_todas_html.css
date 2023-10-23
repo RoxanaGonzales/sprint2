@@ -1,0 +1,19 @@
+
+  .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+  }
+  /* redondeo todas las etiquetas img para que no sean cuadradas */
+    img {
+      margin-top: 10px;
+      border-radius: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
