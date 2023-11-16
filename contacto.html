@@ -13,7 +13,8 @@
 
 </head>
 <header>
-
+	
+  <script src="./button.js"></script>
     <body>
         <nav>
             <a href="index.html">Inicio</a>
@@ -28,16 +29,15 @@
     <main>
         <div class="container">
             <form action="#" class="form-contact" method="post" tabindex="1">
-              <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />
+              <input type="text" class="form-contact-input" id="name" name="name" placeholder="Nombre" required />
               <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
-              <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />
-              <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>
-              <button type="submit" class="form-contact-button">Enviar</button>
+              <input type="tel" class="form-contact-input" name="tel" placeholder="Telefono" />
+              <textarea class="form-contact-textarea" name="conteudo" placeholder="Deja tu mensaje " required></textarea>
+              <button type="submit" class="form-contact-button" id="checkBox" onclick="check()">Enviar</button>
             </form>
           </div>
           
-          <a href="https://twitter.com/lciceris_">@lciceris_</a>
-          <a href="https://www.lciceris.com.br/formulario-de-contato-responsivo">Post contact form responsive</a>
+         
     </main>
 </body>
 
